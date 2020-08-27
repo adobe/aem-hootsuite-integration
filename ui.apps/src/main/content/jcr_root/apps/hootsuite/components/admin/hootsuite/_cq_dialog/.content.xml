@@ -62,14 +62,14 @@
                             <clientId
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                fieldDescription="Found in Marketo under Admin >> Integration >> LaunchPoint"
+                                fieldDescription="Found in Hootsuite Developer Portal in My Apps"
                                 fieldLabel="Client ID"
                                 name="./clientId"
                                 required="{Boolean}true"/>
                             <clientSecret
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/form/password"
-                                fieldDescription="Found in Marketo under Admin >> Integration >> LaunchPoint"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Found in Hootsuite Developer Portal in My Apps"
                                 fieldLabel="Client Secret"
                                 name="./clientSecret"
                                 required="{Boolean}true"/>

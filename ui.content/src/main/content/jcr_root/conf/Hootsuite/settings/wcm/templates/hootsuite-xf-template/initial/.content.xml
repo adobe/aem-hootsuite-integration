@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-07-13T15:57:12.559+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Hootsuite/settings/wcm/templates/hootsuite-xf-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2020-07-13T15:55:06.236+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-07-13T15:55:15.988+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <action_bar
+                    jcr:created="{Date}2020-07-13T15:57:12.557+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-13T15:57:12.557+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="hootsuite/components/structure/action-bar"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

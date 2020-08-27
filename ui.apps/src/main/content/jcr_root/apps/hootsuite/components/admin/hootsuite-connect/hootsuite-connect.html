@@ -1,0 +1,13 @@
+<button class='hootsuite-connect-btn' data-item="${request.requestParameterMap['item'][0].toString}">Connect</button>
+
+    <script>
+	$(".hootsuite-connect-btn").on("click", function(e) {
+    	e.preventDefault();
+    	console.log('Beginning the Hootsuite Connection....');
+
+		$("<a>").prop({
+      		target: "_blank",
+      		href: "https://platform.hootsuite.com/oauth2/auth?response_type=code&scope="+$("[name='./scope']").val() +"&client_id="+ $("[name='./clientId']").val() + "&redirect_uri=" + $("[name='./redirectUrl']").val() + "&state=" + $(this).data('item')
+    	})[0].click();
+    });
+    </script>

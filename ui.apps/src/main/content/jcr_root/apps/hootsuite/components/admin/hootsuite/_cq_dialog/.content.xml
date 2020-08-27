@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Hootsuite Cloud Configuration"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    mode="edit">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <metadata
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Metadata"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                        <items jcr:primaryType="nt:unstructured">
+                            <title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Title"
+                                name="./jcr:title"
+                                required="{Boolean}true"/>
+                        </items>
+                    </metadata>
+                    <configuration
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Configuration"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                        <items jcr:primaryType="nt:unstructured">
+                            <endpointHost
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                class="endpointHost"
+                                fieldDescription="OAuth EndPoint"
+                                fieldLabel="OAuth Endpoint Host"
+                                name="./endpointHost"
+                                required="{Boolean}true"/>
+                            <scope
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="OAuth Scope"
+                                fieldLabel="OAuth Scope"
+                                name="./scope"
+                                required="{Boolean}true"/>
+                            <grantType
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="OAuth Grant Type"
+                                fieldLabel="OAuth Grant Type"
+                                name="./grantType"
+                                required="{Boolean}true"/>
+                            <redirectUrl
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Redirect URL"
+                                fieldLabel="Redirect URL"
+                                name="./redirectUrl"
+                                required="{Boolean}true"/>
+                            <clientId
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Found in Marketo under Admin >> Integration >> LaunchPoint"
+                                fieldLabel="Client ID"
+                                name="./clientId"
+                                required="{Boolean}true"/>
+                            <clientSecret
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/password"
+                                fieldDescription="Found in Marketo under Admin >> Integration >> LaunchPoint"
+                                fieldLabel="Client Secret"
+                                name="./clientSecret"
+                                required="{Boolean}true"/>
+                            <connect
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/apps/hootsuite/components/admin/hootsuite-connect"
+                                fieldLabel="Connect to Hootsuite"
+                                name="./connect"/>
+                        </items>
+                    </configuration>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

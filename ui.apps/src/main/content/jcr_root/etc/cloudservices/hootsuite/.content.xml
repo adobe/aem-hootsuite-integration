@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-08-20T16:20:56.906-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:description="Hootsuite Account Configuration"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Hootsuite"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        connectedWhen="clientID"
+        description="Hootsuite Account Configuration"
+        ranking="200"
+        showOnDashboard="{Boolean}true"
+        visible="{Boolean}true"/>
+</jcr:root>

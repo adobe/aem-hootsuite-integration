@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Simplify Configuration"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <basic
+            jcr:primaryType="nt:unstructured"
+            title="Account Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <tokenEP
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Access Token generation endpoint"
+                    fieldLabel="Access Token generation endpoint"
+                    name="./tokenEP"
+                    xtype="textfield"/>
+                <scope
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Scope"
+                    fieldLabel="Scope"
+                    name="./scope"
+                    xtype="textfield"/>
+                <accessToken
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Access Token"
+                    fieldLabel="Access Token"
+                    name="./accessToken"
+                    xtype="textfield"/>
+                <refreshToken
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Refresh Token"
+                    fieldLabel="Refresh Token"
+                    name="./refreshToken"
+                    xtype="textfield"/>
+                <clientID
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Client ID"
+                    fieldLabel="Client ID"
+                    name="./clientID"
+                    xtype="password"/>
+                <clientIDencryption
+                    jcr:primaryType="cq:Widget"
+                    name="./clientID@Encrypted"
+                    xtype="hidden"/>
+                <clientSecret
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="Client Secret"
+                    fieldLabel="Client Secret"
+                    name="./clientSecret"
+                    xtype="password"/>
+                <clientSecretencryption
+                    jcr:primaryType="cq:Widget"
+                    name="./clientSecret@Encrypted"
+                    xtype="hidden"/>
+            </items>
+        </basic>
+    </items>
+</jcr:root>

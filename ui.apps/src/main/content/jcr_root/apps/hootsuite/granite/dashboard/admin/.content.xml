@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[granite:FinalArea,sling:VanityPath]"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Hootsuite Content Dashboard"
+    sling:resourceType="granite/ui/components/shell/collectionpage"
+    consoleId="granite-backup"
+    contentPath="/content"
+    currentView="${state[&quot;shell.collectionpage.layoutId&quot;].string}"
+    modeGroup="granite-backup-collection"
+    pageURITemplate="/libs/granite/backup/content/admin.html"
+    targetCollection=".granite-backup-collection">
+    <head jcr:primaryType="nt:unstructured">
+        <clientlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/includeclientlibs"
+            categories="[coralui3,granite.ui.coral.foundation,granite.backup]"/>
+    </head>
+    <views jcr:primaryType="nt:unstructured">
+        <list
+            granite:rel="granite-backup-collection"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="List View"
+            sling:resourceType="granite/ui/components/coral/foundation/table"
+            icon="viewList"
+            layoutId="list"
+            limit="{Long}40"
+            modeGroup="granite-backup-collection"
+            path="/content"
+            size="40"
+            sortMode="local"
+            src="/apps/hootsuite/granite/dashboard/admin/views/list.html"
+            stateId="shell.collectionpage">
+            <datasource
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hootsuite/components/admin/hootsuitedatasource"
+                itemResourceType="granite/backup/components/backupentry"
+                limit="40"
+                offset="0"
+                path="${requestPathInfo.suffix}"/>
+            <columns jcr:primaryType="nt:unstructured">
+                <icon
+                    jcr:primaryType="nt:unstructured"
+                    select="{Boolean}false"/>
+                <name
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Title"
+                    sortable="{Boolean}true"/>
+                <date
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Date"
+                    sortable="{Boolean}true"/>
+                <path
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Path"
+                    sortable="{Boolean}true"
+                    sortType="alphanumeric"/>
+            </columns>
+        </list>
+    </views>
+    <actions jcr:primaryType="nt:unstructured"/>
+    <title
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/text"
+        text="Hootsuite Content Dashboard"/>
+</jcr:root>

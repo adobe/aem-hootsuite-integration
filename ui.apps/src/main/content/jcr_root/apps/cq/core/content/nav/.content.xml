@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <tools jcr:primaryType="nt:unstructured">
+        <cloudservices jcr:primaryType="nt:unstructured">
+            <hootsuite
+                jcr:description="Hootsuite Integration Configuration"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Hootsuite"
+                href="/apps/hootsuite/content/cloudservice/console.html/apps/hootsuite/templates/utilities/hootsuitecloudconfig"
+                icon="cloud"
+                id="hootsuite-cloud-configuration"/>
+        </cloudservices>
+        <operations jcr:primaryType="nt:unstructured">
+            <hootsuite-dashboard
+                jcr:description="Hootsuite Reports"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Hootsuite Reports"
+                href="/apps/hootsuite/granite/dashboard/admin.html"
+                icon="report"
+                id="hootsuite-dashboard"/>
+        </operations>
+    </tools>
+</jcr:root>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/hootsuite"/>
+    <!--
     <filter root="/apps/cq/core/content/nav/tools/operations/hootsuite-dashboard"/>
     <filter root="/apps/cq/core/content/nav/tools/cloudservices/hootsuite"/>
+    -->
+    <filter root="/apps/cq/core/content/nav" mode="merge"/>
     <filter root="/etc/cloudservices/hootsuite/jcr:content" mode="merge"/>
     <filter root="/etc/packages/hootsuite"/>
 </workspaceFilter>

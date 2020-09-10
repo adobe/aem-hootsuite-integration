@@ -25,7 +25,7 @@
                     granite:id="acs-commons-cloudservice-create"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/form"
-                    action="/apps/acs-commons/content/cloudservice/console/jcr:content/content/items/cloudconfiglist"
+                    action="/apps/hootsuite/content/cloudservice/console/jcr:content/content/items/cloudconfiglist"
                     foundationForm="{Boolean}true"
                     maximized="{Boolean}true"
                     method="post"
@@ -43,7 +43,7 @@
                                     jcr:title="Select Configuration Root"
                                     sling:resourceType="granite/ui/components/coral/foundation/wizard/lazycontainer"
                                     maximized="{Boolean}true"
-                                    src="/apps/acs-commons/content/cloudservice/create/target.html/conf">
+                                    src="/apps/hootsuite/content/cloudservice/create/target.html/conf">
                                     <parentConfig jcr:primaryType="nt:unstructured">
                                         <next
                                             granite:class="foundation-wizard-control"
@@ -123,7 +123,7 @@
                         jcr:title="Success"
                         sling:resourceType="granite/ui/components/coral/foundation/form/responses/openprompt"
                         open="/libs/wcm/core/content/sites/properties.html?item={Path}"
-                        redirect="/apps/acs-commons/content/cloudservice/console.html${requestPathInfo.suffix}"
+                        redirect="/apps/hootsuite/content/cloudservice/console.html${requestPathInfo.suffix}"
                         text="Cloud Configuration created!"/>
                 </form>
             </items>

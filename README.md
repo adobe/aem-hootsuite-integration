@@ -14,7 +14,7 @@ Hootsuite is a Social Media Marketing and Management Platform. This project aims
 
 
 * AEM Setup
-  + Install the [Latest Integration Package](https://github.com/adobe/aem-hootsuite-integration/releases/download/1.0.0/hootsuite-integration.all-1.0.0.zip)
+  + Install the [Latest Integration Package](https://github.com/adobe/aem-hootsuite-integration/releases/download/1.1.0/hootsuite-integration.all-1.1.0.zip)
   + Configure the Hootsuite cloud service
     + Navigate to **Tools -> Cloud Services -> Hootsuite**
     + Create a new Cloud Service configuration. Enter the details as:

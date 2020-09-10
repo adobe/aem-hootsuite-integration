@@ -70,7 +70,7 @@ public class AuthorizationServlet extends SlingSafeMethodsServlet {
     		Page configPage = resolver.getResource(configPath).adaptTo(Page.class);
     		AuthTokenResponse authTokenResponse = this.oAuthService.getAccessToken(code, configPage);
     		this.utilityService.updateConfiguration(configPage.getContentResource(), resolver, authTokenResponse);
-    		response.setStatus(200);
+    		response.getWriter().write("Hootsuite Configuration has been created successfully!");
 		} catch (Exception e) {
 			response.sendError(500);
 		}

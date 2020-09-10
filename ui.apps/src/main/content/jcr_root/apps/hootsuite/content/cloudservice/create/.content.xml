@@ -149,7 +149,7 @@
             rootPath="/conf"
             selectionCount="single"
             size="{Long}40"
-            src="/apps/acs-commons/content/cloudservice/create/target/field{.offset,limit}.html{+id}">
+            src="/apps/hootsuite/content/cloudservice/create/target/field{.offset,limit}.html{+id}">
             <datasource
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/common/wcm/datasources/childresources"

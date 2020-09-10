@@ -15,15 +15,16 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
 <sly data-sly-use.list="com.adobe.core.hootsuite.integration.external.ui.models.CloudConfigurationList">
     <section class="coral-light acscommons-cloudconfig-summary">
-        <h1 class="coral-Heading coral-Heading--1">${request.requestPathInfo.suffixResource.valueMap.jcr:title}</h1>
-        <p>${request.requestPathInfo.suffixResource.valueMap.jcr:description}</p>
+        <br/>
+        <h1 class="coral-Heading coral-Heading--1" align="center">${request.requestPathInfo.suffixResource.valueMap.jcr:title}</h1>
+        <p align="center">${request.requestPathInfo.suffixResource.valueMap.jcr:description}</p>
     </section>
     <section>
         <coral-masonry layout="fixed-spread" columnwidth="242" spacing="15" data-sly-list.config="${list.cloudConfigurations}">
             <coral-masonry-item>
                 <coral-card colorhint="#ffffff" assetwidth="242" assetheight="242">
                     <coral-card-asset>
-                        <img src="/apps/acs-commons/content/cloudservice/thumb.png" />
+                        <img src="/apps/hootsuite/content/cloudservice/thumb.png" />
                     </coral-card-asset>
                     <coral-card-content>
                         <div>

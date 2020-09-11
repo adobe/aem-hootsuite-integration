@@ -38,3 +38,8 @@ In case, new components are to be included on the Experience Fragment, those are
 * **Experience Fragment Publish Workflow**: /conf/global/settings/workflow/models/hootsuite-asset-publish-workflow
   
 ![xf-hootsuite-workflow](./images/xf/xf-11.png)
+
+* **[Main Content](../README.md)**
+* **[Hootsuite Setup](./HOOTSUITE_SETP.md)**
+* **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
+* **[AEM Assets Setup](./AEM_ASSETS_SETUP.md)**

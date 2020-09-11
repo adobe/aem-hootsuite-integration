@@ -21,3 +21,8 @@
 + Upon clicking the 'Allow' button on the consent screen, the user would be redirected to the default callback URL - **https://www.getpostman.com/oauth2/callback**. It is advisable to get the correct redirect URL configured i.e. <AEM_AUTHOR_HOST>/bin/services/authorize. However, in case the default callback url is configured, user/admin is advised to modify and hit the call back url in the browser from **https://www.getpostman.com/oauth2/callback?code=<VALUE>&scope=offline&state=<VALUE>** to 
 **<AEM_AUTHOR_HOST>/bin/services/authorize?code=<VALUE>&scope=offline&state=<VALUE>**. Please ensure that query parameters in the URL are not changed. If the user/admin sees a white screen, it implies that connection has been established successfully. Please report any exceptions or errors, if encountered, on this screen.
 + Finally, Save and close the configuration.
+
+* **[Main Content](../README.md)**
+* **[Hootsuite Setup](./HOOTSUITE_SETP.md)**
+* **[AEM XF Setup](./AEM_XF_SETUP.md)**
+* **[AEM Assets Setup](./AEM_ASSETS_SETUP.md)**

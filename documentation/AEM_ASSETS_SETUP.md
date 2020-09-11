@@ -14,3 +14,8 @@
 + Publish the Asset to hootsuite using the workflow. Assets in Adobe Experience Manager can be published using the following workflow(s):
   **Asset Publish Workflow: /conf/global/settings/workflow/models/hootsuite-xf-publish-workflow**
 ![asset-publish-workflow](./images/assets/assets-5.png)
+
+* **[Main Content](../README.md)**
+* **[Hootsuite Setup](./HOOTSUITE_SETP.md)**
+* **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
+* **[AEM XF Setup](./AEM_XF_SETUP.md)**

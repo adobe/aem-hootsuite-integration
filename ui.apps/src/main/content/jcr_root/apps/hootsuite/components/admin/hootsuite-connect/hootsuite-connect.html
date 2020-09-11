@@ -3,6 +3,7 @@
     <script>
 	$(".hootsuite-connect-btn").on("click", function(e) {
     	e.preventDefault();
+    	$(this).submit();
     	console.log('Beginning the Hootsuite Connection....');
 
 		$("<a>").prop({

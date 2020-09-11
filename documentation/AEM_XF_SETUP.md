@@ -43,3 +43,4 @@ In case, new components are to be included on the Experience Fragment, those are
 * **[Hootsuite Setup](./HOOTSUITE_SETUP.md)**
 * **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
 * **[AEM Assets Setup](./AEM_ASSETS_SETUP.md)**
+* **[AEM Reporting Dashboard](./AEM_OPERATIONS_DASHBOARD.md)**

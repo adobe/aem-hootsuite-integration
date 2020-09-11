@@ -7,3 +7,4 @@
 * **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
 * **[AEM XF Setup](./AEM_XF_SETUP.md)**
 * **[AEM Assets Setup](./AEM_ASSETS_SETUP.md)**
+* **[AEM Reporting Dashboard](./AEM_OPERATIONS_DASHBOARD.md)**

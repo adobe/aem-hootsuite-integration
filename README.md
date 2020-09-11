@@ -16,6 +16,7 @@ Setup is divided into following section:
   * [Cloudservice Setup](./documentation/AEM_CLOUDSERVICES_SETUP.md)
   * [Experience Fragment Setup](./documentation/AEM_XF_SETUP.md)
   * [Assets Setup](./documentation/AEM_ASSETS_SETUP.md)
+  * [AEM Reporting Dashboard](./documentation/AEM_OPERATIONS_DASHBOARD.md)
   
   
 ## Modules

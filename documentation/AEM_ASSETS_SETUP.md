@@ -19,3 +19,4 @@
 * **[Hootsuite Setup](./HOOTSUITE_SETUP.md)**
 * **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
 * **[AEM XF Setup](./AEM_XF_SETUP.md)**
+* **[AEM Reporting Dashboard](./AEM_OPERATIONS_DASHBOARD.md)**

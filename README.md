@@ -10,7 +10,7 @@ Hootsuite is a Social Media Marketing and Management Platform. This project aims
 
 Setup is divided into following section:
 
-* [Hootsuite integration setup](./documentation/AEM_HOOTSUITE_SETUP.md)
+* [Hootsuite integration setup](./documentation/HOOTSUITE_SETUP.md)
 
 * Adobe Experience Manager Setup.
   * [Cloudservice Setup](./documentation/AEM_CLOUDSERVICES_SETUP.md)

@@ -31,6 +31,6 @@ This integration package requires following pre-requisites:
 + Finally, Save and close the configuration.
 
 * **[Main Content](../README.md)**
-* **[Hootsuite Setup](./HOOTSUITE_SETP.md)**
+* **[Hootsuite Setup](./HOOTSUITE_SETUP.md)**
 * **[AEM XF Setup](./AEM_XF_SETUP.md)**
 * **[AEM Assets Setup](./AEM_ASSETS_SETUP.md)**

@@ -16,6 +16,6 @@
 ![asset-publish-workflow](./images/assets/assets-5.png)
 
 * **[Main Content](../README.md)**
-* **[Hootsuite Setup](./HOOTSUITE_SETP.md)**
+* **[Hootsuite Setup](./HOOTSUITE_SETUP.md)**
 * **[AEM Cloudservice Setup](./AEM_CLOUDSERVICES_SETUP.md)**
 * **[AEM XF Setup](./AEM_XF_SETUP.md)**
